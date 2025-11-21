@@ -48,7 +48,7 @@ python manage.py runserver
 The API will be available at:
 ```
 
-http://127.0.0.1:8000/
+http://127.0.0.1:8000/products
 ```
 
 ✏️ 7. Making Changes & Creating New Migrations
@@ -72,12 +72,12 @@ pip freeze > requirements.txt
 
 
 Push this updated file to GitHub.
-```
-
 🧹 9. Recommended .gitignore Items
+```
 venv/
 __pycache__/
 *.pyc
 db.sqlite3
 .env
 ```
+
